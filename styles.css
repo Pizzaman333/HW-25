@@ -1,0 +1,28 @@
+.list {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    width: 180px;
+    height: 180px;
+    background-color: #ff8888;
+}
+
+.item:nth-child(2) {
+    background-color: #7e8aeb;
+position: absolute;
+top: 120px;
+left: 120px;
+z-index: 2;
+}
+
+.item:last-child {
+    background-color: #4def99;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
